@@ -127,9 +127,9 @@ void	part2_tester(int details_mode, int ft_start, int ft_end)
 	if (ft_start <= fonction && fonction <= ft_end)
 	{
 		char		*strs[] = {"Ceci est un test", "test", "", "test", "Ceci est un test", NULL};
-		char		*strsok[] = {"est un", "est", "", "", ""};
-		unsigned int	start[] = {5, 1, 0, 0, 400};
-		size_t		len[] = {6, 3, 1, 0, 20};
+		char		*strsok[] = {"est un", "est", "", "", "est un test"};
+		unsigned int	start[] = {5, 1, 0, 0, 5};
+		size_t		len[] = {6, 3, 1, 0, 400};
 
 		char	*str;
 
